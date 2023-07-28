@@ -14,6 +14,7 @@ To Be Done :
   - uploading and running a network logger to detect potential attacks and perform replay attacks
   - implementing a site-wide defence against potential attacks on web services using middlewares,htaccess,...etc (for example see /kick/.htaccess)
   - detecting misconfigurations and hardcoded credentials
+  - removing any recenlty created file that contains code
     
 To Be Improved :
   - code readability
