@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteCond %{QUERY_STRING} flag [OR]
+RewriteCond %{QUERY_STRING} \( [OR]
+RewriteCond %{QUERY_STRING} \`
+RewriteRule .* - [R=403,NC,L]
+Order Allow,Deny
+Deny from 66.249.74.0/24
+Allow from all
